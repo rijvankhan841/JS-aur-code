@@ -40,6 +40,7 @@ if(true) {
 
 // ++++++++++++++++ interesting +==========
 
+// we can call from here of any function
 console.log(addone(5))
 
 function addone(num){
@@ -49,6 +50,7 @@ function addone(num){
 
 // error throwing
 
+// we cant call from here of any function
 addTwo(5)
 const addTwo = function(num){
   return num + 2
